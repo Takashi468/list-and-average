@@ -1,0 +1,29 @@
+# Ignore build outputs
+/build/
+/dist/
+/nbbuild/
+/nbdist/
+/nbsandbox/
+
+# Ignore NetBeans project-specific files
+/nbproject/private/
+/nbproject/Makefile-*.mk
+
+# Ignore compiled class files
+**/*.class
+
+# Ignore test output
+/test/**/*.class
+/test/**/*.log
+
+# Ignore generated files
+*.log
+*.bak
+*.tmp
+
+# Ignore manifest
+manifest.mf
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
